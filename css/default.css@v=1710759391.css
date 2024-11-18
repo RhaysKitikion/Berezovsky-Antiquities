@@ -245,7 +245,6 @@ h2 {
 footer {
     display: flex;
     color: var(--white-text);
-    background-color: var(--black-bg);
     padding: 0 220px 198px 220px;
     margin-top: 112px;
 }
