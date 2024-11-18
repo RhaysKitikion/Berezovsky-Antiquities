@@ -33,7 +33,7 @@ html {
 }
 
 body {
-    background-color: #000000;
+    background-color: #03260a;
 }
 
 a {
@@ -55,7 +55,7 @@ h2 {
 /* MAIN SECTOR */
 
 .main-sector {
-    background: url("../img/main_bg.jpg") no-repeat;
+    background: url("../img/main_bg.png") no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -63,7 +63,6 @@ h2 {
 
 .main-sector:after {
     display: block;
-    content: " ";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -119,12 +118,10 @@ h2 {
 
 .text-sector__black {
     color: var(--white-text);
-    background-color: var(--black-bg);
 }
 
 .text-sector__white {
-    color: var(--black-text);
-    background-color: var(--white-bg);
+    color: var(--white-bg);
 }
 
 .text-sector__col {
@@ -217,8 +214,8 @@ h2 {
 
 .event-list-sector {
     display: flex;
-    background-color: var(--white-bg);
     padding: 258px 220px 275px 220px;
+	color: var(--white-text);
 }
 
 .event-list-sector__item {
